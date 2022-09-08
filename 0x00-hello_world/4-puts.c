@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints a string using puts
+ * main - The main method prints the string using puts
  *
- * Return - always return 0
+ * Return: 0 is always returned
  */
 int main(void)
 {
