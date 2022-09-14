@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "main.h"
+#include <string.h>
 
 /**
  * main - Prints "_putchar" followed by a new line
@@ -7,7 +8,13 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char str[] = "_putchar";
+
+	int x;
+	for (x = 0; x < strlen(str); x++)
+		_putchar(str[x]);
+
+	_putchar('\n');
 
 	return (0);
 }
