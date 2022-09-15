@@ -3,9 +3,9 @@
 /**
  * print_string - print the word "_putchar"
  *
- * Return: Always return 0
+ * Return: Nothing is returned
  */
-int print_string(void)
+void print_string(void)
 {
 	char a[] = "_putchar";
 
@@ -18,6 +18,4 @@ int print_string(void)
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
