@@ -2,19 +2,23 @@
 #include <string.h>
 
 /**
- * main - Prints "_putchar" followed by a new line
+ * print - print the word "_putchar"
+ *
+ * @a: store the string to be printed
+ * @len: store the length of the string
+ * @i: the iterable variable
  *
  * Return: Always return 0
  */
-int main(void)
+int print(void)
 {
-	char str[] = "_putchar";
+	char a[] = "_putchar";
 
-	unsigned int x;
-	unsigned int y = strlen(str);
-	for (x = 0; x < y; x++)
+	int len = strlen(a);
+	int i;
+	for (i = 0; i < len; i++)
 	{
-		_putchar(str[x]);
+		_putchar(a[i]);
 	}
 
 	_putchar('\n');
