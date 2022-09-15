@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print - print the word "_putchar"
+ * print_string - print the word "_putchar"
  *
  * Return: Always return 0
  */
-int print(void)
+int print_string(void)
 {
 	char a[] = "_putchar";
 

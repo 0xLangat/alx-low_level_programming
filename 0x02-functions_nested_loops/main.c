@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - calls the functions
+ * main - check the code.
  *
- * Return: Always return 0
+ * Return: Always 0.
  */
 int main(void)
 {
-	print();
+	print_string();
 
 	return (0);
 }
