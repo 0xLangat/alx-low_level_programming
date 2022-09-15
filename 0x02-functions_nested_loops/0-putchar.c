@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * print_string - print the word "_putchar"
+ * main - print the word "_putchar"
  *
  * Return: Nothing is returned
  */
-void print_string(void)
+int main(void)
 {
-	char a[] = "_putchar";
-
-	int len = 8;
-	int i;
-
-	for (i = 0; i < len; i++)
-	{
-		_putchar(a[i]);
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
+	return (0);
 }
