@@ -20,12 +20,13 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		int i, j;
+		int i, j, result;
 
 		i = atoi(argv[1]);
 		j = atoi(argv[2]);
+		result = i * j;
 
-		printf("%d\n", (i * j));
+		printf("%d\n", result);
 	}
 
 	return (0);
