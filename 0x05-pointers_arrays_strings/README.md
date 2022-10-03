@@ -24,3 +24,17 @@ Prototype: void _puts(char *str);
 Write a function that prints a string, in reverse, followed by a new line.
 
 Prototype: void print_rev(char *s);
+
+## 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+Write a function that reverses a string.
+
+Prototype: void rev_string(char *s);
+
+## 7. Winning is only half of it. Having fun is the other half
+Write a function that prints half of a string, followed by a new line.
+
+Prototype: void puts_half(char *str);
+
+The function should print the second half of the string
+
+If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
