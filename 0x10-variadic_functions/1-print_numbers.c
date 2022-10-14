@@ -8,13 +8,9 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned int i, len;
+	unsigned int i;
 	int num;
 	va_list ap;
-
-	len = 0;
-	while (separator[len] != '\0')
-		len++;
 
 	va_start(ap, n);
 
@@ -23,12 +19,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		num = va_arg(ap, int);
 		printf("%d", num);
 
-		if (separator != NULL)
+		if (separator != NULL && i != (n - 1))
 		{
-			if (i != (n - 1))
-			{
-				printf("%s", separator);
-			}
+			printf("%s", separator);
 		}
 	}
 
