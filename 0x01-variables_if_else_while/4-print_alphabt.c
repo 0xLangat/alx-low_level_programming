@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Print alphabet in lowercase
+ * main - prints alphabet in lowercase
  *
- * Return: Always return 0
+ * Return: On success 0
  */
 int main(void)
 {
@@ -12,9 +12,12 @@ int main(void)
 	for (alph = 'a'; alph <= 'z'; alph++)
 	{
 		if (alph != 'q' && alph != 'e')
+		{
 			putchar(alph);
+		}
 	}
 
 	putchar('\n');
+
 	return (0);
 }
