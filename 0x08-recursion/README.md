@@ -13,3 +13,7 @@ that we realize something was actually strange
 Function that returns length of a string
 Prototype: int _strlen_recursion(char *s);
 
+##3. You mustn't be afraid to dream a little bigger, darling
+Function that returns the factorial of a given number
+Prototype: int factorial(int n)
+
