@@ -17,3 +17,7 @@ Prototype: int _strlen_recursion(char *s);
 Function that returns the factorial of a given number
 Prototype: int factorial(int n)
 
+##4. Once an idea has taken hold of the brain it's almost impossible to eradicate
+Function that returns the value of x raised to the power of y.
+prototype: int _pow_recursion(int x, int y);
+
